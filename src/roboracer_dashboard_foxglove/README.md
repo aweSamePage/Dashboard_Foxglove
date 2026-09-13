@@ -1,22 +1,22 @@
-# Follow The Gap Debug Dashboard
+# Follow The Gap Debug Dashboard (Python)
 
 Video: *(coming soon)*
 
-Use this package to see your Follow The Gap code in Foxglove: the gap you chose, the beam you aim at, and the safety bubble.
+Use this package to see your Python Follow The Gap node in Foxglove: the gap you chose, the beam you aim at, and the safety bubble. Add three lines to your Python gap_follow node. C++ is not supported on this branch.
 
 ## 1. Add this package to your workspace
 
 **Clone this repository into the `src` folder of your ROS 2 workspace, then build:**
 ```bash
 cd src
-git clone -b ftg https://github.com/aweSamePage/Dashboard_Foxglove.git
+git clone -b ftg-python https://github.com/aweSamePage/Dashboard_Foxglove.git
 ```
 
 **Check**
 ```bash
 cd Dashboard_Foxglove && git branch --show-current
 ```
-If "ftg" shows up you are good to go.
+If "ftg-python" shows up you are good to go.
 
 ```bash
 cd <your_ws> #above your original src directory
