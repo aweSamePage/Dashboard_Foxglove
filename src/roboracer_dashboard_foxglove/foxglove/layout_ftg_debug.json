@@ -1,0 +1,34 @@
+{
+  "configById": {
+    "3D!ftg_view": {
+      "cameraState": {
+        "distance": 10,
+        "phi": 0.85,
+        "target": [0, 0, 0],
+        "thetaOffset": 0.0
+      },
+      "followMode": "follow-pose",
+      "followTf": "base_link",
+      "layers": { "grid": { "visible": true } },
+      "scene": { "backgroundColor": "#111827" },
+      "topics": {
+        "/map": { "visible": true },
+        "/scan": { "colorField": "intensity", "colorMode": "flat", "flatColor": "#38bdf8", "pointSize": 3, "visible": true },
+        "/visual/actual_path": { "color": "#f97316", "visible": true },
+        "/debug/ftg/markers": { "visible": true }
+      }
+    },
+    "RawMessages!advice": {
+      "topicPath": "/debug/ftg/advice"
+    }
+  },
+  "globalVariables": {},
+  "layout": {
+    "direction": "row",
+    "first": "3D!ftg_view",
+    "second": "RawMessages!advice",
+    "splitPercentage": 68
+  },
+  "playbackConfig": { "speed": 1 },
+  "userNodes": {}
+}
