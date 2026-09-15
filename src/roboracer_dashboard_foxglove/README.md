@@ -1,6 +1,6 @@
 # Follow The Gap Debug Dashboard (Python)
 
-Video: *(coming soon)*
+Video: https://www.youtube.com/watch?v=1hDhRFxlP6o
 
 Use this package to see your Python Follow The Gap node in Foxglove: the gap you chose, the beam you aim at, and the safety bubble. Add three lines to your Python gap_follow node. C++ is not supported on this branch.
 
