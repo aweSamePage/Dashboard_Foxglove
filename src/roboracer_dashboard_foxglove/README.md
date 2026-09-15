@@ -100,3 +100,4 @@ source install/setup.bash
 ## Coming later (WIP)
 
 Pure Pursuit, MPC, and MPPI dashboards are still in progress. Do not use them yet.
+This is more of a basic level advice so it is based on simulator. When you are pushing to the limit with real cars, please do not listen to these advices. 
